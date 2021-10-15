@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    margin: 0;
+}
+
+.header div {
+    padding: 0;
+}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.header {
+    border-bottom: 1px solid #CDCDCD;
+    font-size: 25pt;
+    height: 56px;
+    position: fixed;
+    width: 100%;
+}
+
+#logo {
+    height: 50px;
+    margin: 0;
+    padding: 5px;
+}
+
+#search {
+    display: inline;
+    margin: auto;
+    width: 200px;
+    height: 30px;
+}
+
+#application ul {
+    margin: 5px;
+}
+
+#application ul li {
+    display: inline;
+    padding: 15px 15px;
+    font-size: 20px;
+}
+
+#application ul li:hover {
+    background-color: red;
+}
+
+ul {
+    margin: 5px;
+}
+
+#account ul li {
+    display: inline;
+    padding: 15px 7px;
+    font-size: 20px;
+}
+
+#account ul li:hover {
+    background-color: red;
+}
+
+.left ul li {
+    list-style-type: none;
+    padding: 15px 15px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.left {
+    min-height: 700px;
+    border: 1px solid #CDCDCD;
+    margin: 10px;
+    position: fixed;
+    width: 24%;
+}
+
+.center {
+    min-height: 700px;
+    border: 1px solid #CDCDCD;
+    margin: 10px;
+}
+
+#status {
+    width: 250px;
+    height: 30px;
+    margin: 20px;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right {
+    min-height: 700px;
+    border: 1px solid #CDCDCD;
+    margin: 10px;
+    width: 24%;
+    position: fixed;
+}
+.right p {
+    padding: 0;
+    margin: 0;
+}
+.right ul li {
+    display: inline-block;
+    font-size: 15px;
+}
+.content {
+    padding-top: 50px;
+}
